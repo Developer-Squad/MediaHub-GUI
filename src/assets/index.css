@@ -3,6 +3,7 @@
     text-align: center;
     text-decoration: underline;
 }
+<<<<<<< HEAD
 
 .loader {
     position: absolute;
@@ -36,3 +37,19 @@
     100% { transform: rotate(360deg); }
   }
   
+=======
+.logo{
+	height:15em;
+	width:15em;
+	background-image: url('Mediahub.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	left: 350px;
+	top: 100px;
+	position: relative;
+
+}
+body{
+	background-color: black;
+}
+>>>>>>> 5852e2c4379bce558a8272bd0c9c9f9f94103fef
