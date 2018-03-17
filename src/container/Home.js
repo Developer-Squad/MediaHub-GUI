@@ -1,8 +1,8 @@
 import React from 'react';
-import { Projects } from '../components/Projects';
+import { Logo } from '../components/logo';
 
 export class Home extends React.Component {
     render() {
-        return <Projects />;
+        return <Logo />;
     }
 }
