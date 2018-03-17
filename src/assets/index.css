@@ -47,10 +47,10 @@
   margin: auto;
   top: 0;
   right: 0;
-  bottom: 0;
+  bottom: 30%;
   left: 0;
-  width: 100px;
-  height: 100px;
+  width: 25%;
+  height: 25%;
   background-image: url('Mediahub.png');
 	background-size: contain;
 	background-repeat: no-repeat;
