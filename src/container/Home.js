@@ -4,7 +4,7 @@ import { Searchbar } from '../components/searchbar';
 
 export class Home extends React.Component {
     render() {
-    const myhome = (<div>
+    const myhome = (<div className="logos">
                     <Logo />
                     <Searchbar />
                 </div>
