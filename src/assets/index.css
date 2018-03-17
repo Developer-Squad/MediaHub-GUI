@@ -37,7 +37,7 @@
 	background-size: contain;
 	background-repeat: no-repeat;
 	left: 40%;
-	top: 100px;
+	top: 120%;
 	position: relative;
 	color: white;
 
@@ -49,11 +49,16 @@
   right: 0;
   bottom: 30%;
   left: 0;
+<<<<<<< HEAD
   width: 25%;
   height: 25%;
+=======
+  width: 30%;
+  height: 20%;
+>>>>>>> 3024ecaa6c958423dd4ce891efb3aaf0628d4797
   background-image: url('Mediahub.png');
-	background-size: contain;
-	background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 body{
 	background-color: black;
