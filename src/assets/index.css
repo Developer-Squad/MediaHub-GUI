@@ -3,3 +3,17 @@
     text-align: center;
     text-decoration: underline;
 }
+.logo{
+	height:15em;
+	width:15em;
+	background-image: url('Mediahub.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	left: 350px;
+	top: 100px;
+	position: relative;
+
+}
+body{
+	background-color: black;
+}
