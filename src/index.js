@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/index.css';
+import {Loader} from './components/loader.js'
 
-ReactDOM.render(<h1 className="title">Media Hub</h1>,document.getElementById('root'));
+ReactDOM.render(<Loader />,document.getElementById('root'));
