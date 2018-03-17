@@ -60,3 +60,10 @@
 body{
 	background-color: black;
 }
+.searchbar{
+	height: 20px;
+	width: 300px;
+	border-color: orange;
+	background-color: black;
+	color: orange;
+}
