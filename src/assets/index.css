@@ -29,19 +29,7 @@
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
- /*   
-.logo{
-	height:15em;
-	width:15em;
-	background-image: url('Mediahub.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	left: 40%;
-	top: 120%;
-	position: relative;
-	color: white;
 
-}*/
 .logo{
   position: absolute;
   margin: auto;
@@ -58,7 +46,7 @@
 
 .logos{
   position: fixed;
-  top: 100px;
+  top: 10%;
   right: 0;
   bottom: 0;
   left: 0;
