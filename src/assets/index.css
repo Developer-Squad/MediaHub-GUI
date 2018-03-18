@@ -108,3 +108,7 @@ body{
 .filesize-dir{
   color: white;
 }
+td{
+  padding-left: 50px;
+  padding-right: 270px;
+}
