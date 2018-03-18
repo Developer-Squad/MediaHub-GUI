@@ -8,13 +8,13 @@ export class Home extends React.Component {
         /*var file_des = {
             filename:"qwerty",
             filesize:"15MB",
-            filetype:"mp3"
+            filetype:"mkv"
         };*/
         return (
             <div className="logos">
             <Logo />
             <Searchbar />
-            {/*<Row file={file_des} />*/}
+           {/* {<Row file={file_des} />} */}
             </div>
         );
     }
