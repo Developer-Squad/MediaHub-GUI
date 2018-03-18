@@ -26,7 +26,7 @@ export class Row extends React.Component {
     render() {
         return(
         <div className = "row">
-            <img src = 'assets/folder.png' />
+            <img src = {require('../assets/folder.png')} className="image-dir" />
             <h3>{this.props.file.filename}</h3>
             <h3>{this.props.file.filesize}</h3>
         </div>
