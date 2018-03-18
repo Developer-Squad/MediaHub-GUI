@@ -102,3 +102,9 @@ body{
   height : 40px;
   width:40px;
 }
+.filename-dir{
+  color: white;
+}
+.filesize-dir{
+  color: white;
+}
