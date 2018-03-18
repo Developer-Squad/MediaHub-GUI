@@ -40,7 +40,7 @@
   width: 30%;
   height: 23%;
   background-image: url('Mediahub.png');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -55,19 +55,46 @@
 body{
 	background-color: black;
 }
-.searchbar{
-  font-size: 1em;
-  padding: 0.1em 1em;
-	height: 40px;
-  width: 500px;
-  border:0px;
-	background-color: rgb(46, 45, 45);
-  color: white;
+
+.search{
+	height: 9%;
+  width: 40%;
+  padding:0;
+  background-color: rgb(46, 45, 45);
   position: absolute;
   margin: auto;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  border-radius: 5px;
+}
+
+.searchbutton{
+  width:20%;
+  height:100%;
+  border:0;
+  background-color: rgb(247, 151, 29);
+  color:rgb(0, 0, 0);
+  font-size:1em;
+  display: block;
+  float: right;
+  background-image: url('search.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%; 
+
+}
+
+.searchbar{
+  width: 74%;
+  height:100%;
+  background-color: rgb(46, 45, 45);
+  border:0px;
+  color: white;
+  display: block;
+  font-size:1.2em;
+  padding:0em 2%;
+  float: left;
+
 }
