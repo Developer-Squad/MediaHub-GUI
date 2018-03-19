@@ -11,9 +11,9 @@ export class Home extends React.Component {
             filetype:"mkv"
         };*/
         return (
-            <div className="logos">
-            <Logo />
-            <Searchbar />
+            <div className="home-item">
+            <Logo className="home-logo"/>
+            <Searchbar className="home-search"/>
            {/* {<Row file={file_des} />} */}
             </div>
         );
