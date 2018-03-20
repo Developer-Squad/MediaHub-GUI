@@ -5,7 +5,10 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+<<<<<<< HEAD
     "react-router": "^4.2.0",
+=======
+>>>>>>> 43ae58f66e3b8093380101e597bec93ab0312ff6
     "react-router-dom": "^4.2.2",
     "react-scripts": "0.9.5",
     "reactbulma": "^1.1.1"
