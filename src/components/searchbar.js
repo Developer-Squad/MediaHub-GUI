@@ -5,9 +5,11 @@ import { Button } from './button';
 export class Searchbar extends React.Component {
     render() {
     return (
+            <div className = {this.props.className}>
             <div className="search">
                 <input className="searchbar" />
 	           	<Button />
+            </div>
             </div>
         );
     }
