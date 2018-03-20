@@ -36,7 +36,7 @@ class Display extends React.Component {
         return (
             <div className="aaa">
             <button className="sss" onClick= {this.handleClick}>Change</button>
-            {this.component.call()}
+            {this.component()}
             </div>
         );
     }
