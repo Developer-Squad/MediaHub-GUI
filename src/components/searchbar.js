@@ -8,7 +8,7 @@ export class Searchbar extends React.Component {
             <div className = {this.props.className}>
             <div className="search">
                 <input className="searchbar" />
-	           	<Button />
+	           	<Button value={this.props.component}/>
             </div>
             </div>
         );
