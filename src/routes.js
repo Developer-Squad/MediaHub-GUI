@@ -8,8 +8,8 @@ export class Routes extends React.Component {
      return(
         <BrowserRouter>
             <div>
-                <Route path="/home" component={Home} />
-                <Route path="/searchresults" component={Results} />
+                    <Route path="/home" component={Home} />
+                    <Route path="/searchresults" component={Results} />
             </div>
         </BrowserRouter>
      );
