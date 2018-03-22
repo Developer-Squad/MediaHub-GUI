@@ -1,0 +1,163 @@
+.loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    margin: -75px 0 0 -75px;
+    border: 16px solid rgb(255, 189, 128);
+    border-radius: 50%;
+    border-top: 16px solid rgb(247, 151, 29);
+    border-bottom: 16px solid rgb(247, 151, 29);
+    width: 60px;
+    height: 60px;
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @-moz-keyframes spin {
+    0% { -moz-transform: rotate(0deg); }
+    100% { -moz-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+.logo{
+  height:100%;
+  width:100%;
+  background-image: url('Mediahub.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.home-logo{
+  height:25%;
+  width:34%;
+  top:28%;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+  position: relative;
+}
+
+.home-item{
+  position: absolute;
+  width:100%;
+  height:100%;
+}
+
+body{
+  background-color: rgb(0, 0, 0);
+  margin:0;
+}
+
+
+.search{
+	height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: auto;
+}
+
+.searchbutton{
+  width:20%;
+  height:100%;
+  border:0;
+  background-color: rgb(247, 151, 29);
+  color:rgb(0, 0, 0);
+  font-size:1em;
+  display: block;
+  float: right;
+  background-image: url('search.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20%; 
+  cursor: pointer;
+
+}
+
+.searchbar{
+  width: 76%;
+  height:100%;
+  background-color: rgb(46, 45, 45);
+  border:0px;
+  color: white;
+  display: block;
+  font-size:1.2em;
+  padding:0em 2%;
+  float: left;
+
+}
+
+.home-search{
+  height: 50px;
+  width: 40%;
+  padding:0;
+  background-color: rgb(46, 45, 45);
+  position: absolute;
+  margin: auto;
+  top: 20%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.navbar{
+  width:100%;
+  height:40px;
+  position: fixed;
+  background-color: #131313;
+  padding:0.5em;
+
+}
+
+.nav-logo{
+  position: absolute;
+  display: block;
+  height: 60%;
+  width:20%;
+  left:20%;
+  border-radius: 5px;
+}
+
+.nav-search{
+  position: absolute;
+  display: block;
+  width:40%;
+  height: 60%;
+  left:33%; 
+  margin:auto;
+}
+
+table{
+  border: 2px solid white;
+}
+.image-dir{
+  height : 40px;
+  border: 2px solid white;
+}
+.filename-dir{
+  color: white;
+  border: 2px solid white;
+}
+.filesize-dir{
+  color: white;
+  border: 2px solid white;
+}
+.aaa{
+  position:absolute;
+  height:100%;
+  width:100%;
+  background-color: black;
+}
