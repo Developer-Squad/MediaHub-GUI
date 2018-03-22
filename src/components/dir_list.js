@@ -1,5 +1,6 @@
 import React from 'react';
 import Row from './row';
+<<<<<<< HEAD
 import {Table} from 'reactbulma';
 
 export class Dir_list extends React.Component{
@@ -23,3 +24,5 @@ export class Dir_list extends React.Component{
 		);	
 	}
 }
+=======
+>>>>>>> f7738ac299e621d25dbf297f88dc6f26abefb1df
