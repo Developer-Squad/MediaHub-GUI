@@ -1,8 +1,9 @@
 import React from 'react';
 import { Logo } from '../components/logo';
 import { Navbar } from '../components/navbar';
-import { Row } from '../components/row';
+//import { Row } from '../components/row';
 import { Home } from './Home';
+import {Dir_list} from '../components/dir_list';
 export class Results extends React.Component {
     render(){
         var file_des = {
@@ -11,10 +12,10 @@ export class Results extends React.Component {
             filetype:"folder"
         };
         return (
-            <div>
+            <div className='aaa'>
             <Navbar search={<Home />}/>
             <br /><br /><br />
-            <Row file={file_des} />
+            <Dir_list />
             </div>
         );
     }
