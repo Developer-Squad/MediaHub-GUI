@@ -3,20 +3,24 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Loader } from './loader';
 export class Button extends React.Component {
-   /* constructor(props) {
+    constructor(props) {
         super(props);
         this.state={
-            location:"home"
+            location:"searchresults"
         }
-        this.handleClick=this.handleClick.bind(this);
-    }*/
+        this.handleLoad=this.handleLoad.bind(this);
+    }
+    handleLoad()
+    {
+        setTimeout(() => {
+            this.setState({ location: "loader" });
+          }, 3000);          
+    }
     render(){
         return (
-                <Link to="searchresults">
-                    <button className="searchbutton"></button>
+                <Link to={this.state.location}>
+                    <button className="searchbutton" onLoad={this.handleLoad}></button>
                 </Link>
         );
     }
-
-
 }

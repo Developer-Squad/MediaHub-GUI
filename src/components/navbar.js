@@ -7,7 +7,7 @@ export class Navbar extends React.Component {
         return (
             <div className='navbar'>
                 <Logo className="nav-logo" />
-                <Searchbar className="nav-search" component={this.props.search}/>
+                <Searchbar className="nav-search" />
             </div>
         );
     }
