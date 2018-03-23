@@ -57,7 +57,7 @@
 }
 
 body{
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   margin:0;
 }
 
@@ -88,7 +88,7 @@ body{
 }
 
 .searchbar{
-  width: 76%;
+  width: 80%;
   height:100%;
   background-color: rgb(46, 45, 45);
   border:0px;
@@ -135,18 +135,12 @@ body{
   position: absolute;
   display: block;
   width:40%;
-  height: 60%;
-<<<<<<< HEAD
+  height: 55%;
   left:33%; 
-=======
-  left:28%; 
->>>>>>> f7738ac299e621d25dbf297f88dc6f26abefb1df
   margin:auto;
 }
 
-table{
-  border: 2px solid white;
-}
+
 .image-dir{
   height : 40px;
   border: 2px solid white;
@@ -163,8 +157,18 @@ table{
   position:absolute;
   height:100%;
   width:100%;
-<<<<<<< HEAD
   background-color: black;
-=======
->>>>>>> f7738ac299e621d25dbf297f88dc6f26abefb1df
+}
+
+.home-item{
+  background-color: black;
+}
+
+.pagal{
+  border:0px red solid;
+
+}
+
+.btable{
+  padding:20px;
 }
