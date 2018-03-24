@@ -14,7 +14,7 @@ export class Results extends React.Component {
         var file_des1 = {
             filename:"Narcos Season 2",
             filesize:"15MB",
-            filetype:"mp4"
+            filetype:"folder"
         };
         return (
             <div className='aaa'>
