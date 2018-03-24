@@ -1,25 +1,46 @@
 import React from 'react';
 //import { Loader } from './loader';
-import { Link } from 'react-router-dom';
-import { Loader } from './loader';
+import { Link, Redirect } from 'react-router-dom';
 export class Button extends React.Component {
-    constructor(props) {
+    /*constructor(props) {
         super(props);
         this.state={
-            location:"searchresults"
+            location:"loader"
         }
         this.handleLoad=this.handleLoad.bind(this);
     }
     handleLoad()
     {
-        setTimeout(() => {
-            this.setState({ location: "loader" });
-          }, 3000);          
-    }
+
+    }*/
     render(){
+       /* function redirect() {
+            return <Redirect to="searchresults" />
+        }
+        
+        function updateSecs() {
+            var seconds = 5;
+            seconds--;
+            if (seconds == -1) {
+                //clearInterval(foo);
+                var a = redirect();
+            }
+            else 
+                var a = (<Link to="loader">
+                            <button className="searchbutton" ></button>
+                            {updateSecs()}
+                        </Link>);
+            return a;
+        }
+        function countdownTimer() {
+            var foo = setInterval(function () {
+                updateSecs()
+            }, 1000);
+            return foo;
+        }*/
         return (
-                <Link to={this.state.location}>
-                    <button className="searchbutton" onLoad={this.handleLoad}></button>
+                <Link to="loader">
+                    <button className="searchbutton" ></button>
                 </Link>
         );
     }

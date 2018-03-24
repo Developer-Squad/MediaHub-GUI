@@ -162,3 +162,9 @@ body{
 .home-item{
   background-color: black;
 }
+.load{
+  position:absolute;
+  height:100%;
+  width:100%;
+  background-color: black;
+}
