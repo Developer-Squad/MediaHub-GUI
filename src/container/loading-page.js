@@ -1,19 +1,22 @@
 import React from 'react';
 import { Loader } from '../components/loader';
-import { Results } from './searchresult';
 import { Redirect } from 'react-router-dom';
 export class Page extends React.Component {
+    constructor(props){
+        super(props);
+        this.state={value:true};
+    }
     componentDidMount(){
-        var seconds=1;
         this.timeoutHandle = setTimeout(()=>{
-            seconds--;
             console.log("test");
-          //  this.apply();
+            //window.location.href="localhost:3000/searchresults";
+            this.setState({value:false})
         }, 5000);
    }
-    /*apply = ()=>{
-       return(<Redirect to="searchresults"/>);
-   }*/
+    apply = ()=>{
+       if(this.state.value==false)
+            return(<Redirect to="searchresults"/>);
+   }
    componentWillUnmount(){
         clearTimeout(this.timeoutHandle);
    }
@@ -21,6 +24,7 @@ export class Page extends React.Component {
         return (
             <div className="load">
                 <Loader />
+                {this.apply()}
             </div>
         );
     }
