@@ -18,7 +18,7 @@ export class Results extends React.Component {
         };
         return (
             <div className='aaa'>
-            <Navbar search={<Home />}/>
+            <Navbar />
             <br /><br /><br />
             <Dir_list file={file_des1}/>
             </div>
