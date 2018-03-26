@@ -13,6 +13,12 @@ export class Button extends React.Component {
     {
 
     }*/
+    handleClick=(e)=>{
+        e.preventDefault();
+        if(e.keyCode === 13){
+           console.log("test");
+        }
+    }
     render(){
        /* function redirect() {
             return <Redirect to="searchresults" />

@@ -11,7 +11,7 @@ export class Page extends React.Component {
             console.log("test");
             //window.location.href="localhost:3000/searchresults";
             this.setState({value:false})
-        }, 5000);
+        }, 3000);
    }
     apply = ()=>{
        if(this.state.value==false)
