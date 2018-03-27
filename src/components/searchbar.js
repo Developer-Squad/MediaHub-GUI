@@ -7,8 +7,10 @@ export class Searchbar extends React.Component {
     return (
             <div className = {this.props.className}>
             <div className="search">
+            <form className="aaa">
                 <input className="searchbar" />
 	           	<Button />
+            </form>
             </div>
             </div>
         );
