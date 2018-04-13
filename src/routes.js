@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import { Home } from './container/Home';
-import { Results } from './container/searchresult';
-import { Page } from './container/loading-page';
+import { Home } from './components/Home';
+import { Results } from './components/searchresult';
+import { Page } from './components/loading-page';
 export class Routes extends React.Component {
  render(){
      return(

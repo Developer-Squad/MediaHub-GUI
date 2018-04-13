@@ -1,6 +1,6 @@
 import React from 'react';
-import { Logo } from '../components/logo';
-import { Searchbar } from '../components/searchbar';
+import { Logo } from './logo/logo';
+import { Searchbar } from './searchbar/searchbar';
 //import { Row } from '../components/dir_listing';
 import { Results } from './searchresult';
 export class Home extends React.Component {

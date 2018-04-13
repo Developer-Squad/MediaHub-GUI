@@ -1,8 +1,8 @@
 import React from 'react';
-import { Logo } from '../components/logo';
-import { Navbar } from '../components/navbar';
+import { Logo } from './logo/logo';
+import { Navbar } from './navbar/navbar';
 import { Home } from './Home';
-import {Dir_list} from '../components/dir_list';
+import {Dir_list} from './table/dir_list';
 export class Results extends React.Component {
     render(){
         var file_des = {

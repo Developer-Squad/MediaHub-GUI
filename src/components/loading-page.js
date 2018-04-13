@@ -1,5 +1,5 @@
 import React from 'react';
-import { Loader } from '../components/loader';
+import { Loader } from './loader/loader';
 import { Redirect } from 'react-router-dom';
 export class Page extends React.Component {
     constructor(props){

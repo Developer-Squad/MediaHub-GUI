@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/index.css';
+import '../../assets/index.css';
 
 export class Loader extends React.Component{
     render(){

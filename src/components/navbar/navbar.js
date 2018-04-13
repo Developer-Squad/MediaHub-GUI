@@ -1,7 +1,7 @@
 import React from 'react';
-import { Logo } from '../components/logo';
-import { Searchbar } from '../components/searchbar';
-import { Home } from '../container/Home';
+import { Logo } from '../logo/logo';
+import { Searchbar } from '../searchbar/searchbar';
+import { Home } from '../Home';
 export class Navbar extends React.Component {
     render(){
         return (
