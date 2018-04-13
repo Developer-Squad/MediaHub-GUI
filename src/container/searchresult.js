@@ -1,7 +1,6 @@
 import React from 'react';
 import { Logo } from '../components/logo';
 import { Navbar } from '../components/navbar';
-//import { Row } from '../components/row';
 import { Home } from './Home';
 import {Dir_list} from '../components/dir_list';
 export class Results extends React.Component {
@@ -16,11 +15,42 @@ export class Results extends React.Component {
             filesize:"15MB",
             filetype:"folder"
         };
+        var file_des2 = {
+            filename:"Narcos Season 2",
+            filesize:"15MB",
+            filetype:"mp3"
+        };
+        var file_des3 = {
+            filename:"Narcos Season 2",
+            filesize:"15MB",
+            filetype:"folder"
+        };
+        var file_des4 = {
+            filename:"Narcos Season 2",
+            filesize:"15MB",
+            filetype:"c"
+        };
+        var file_des5 = {
+            filename:"Narcos Season 2",
+            filesize:"15MB",
+            filetype:"folder"
+        };
+        var file_des6 = {
+            filename:"Narcos Season 2",
+            filesize:"15MB",
+            filetype:"folder"
+        };
+        var file_des7 = {
+            filename:"Narcos Season 2",
+            filesize:"15MB",
+            filetype:"folder"
+        };
+        var bb = [file_des,file_des1,file_des2,file_des3,file_des4,file_des5,file_des6,file_des7]
         return (
             <div className='aaa'>
             <Navbar />
             <br /><br /><br />
-            <Dir_list file={file_des1}/>
+            <Dir_list list={bb}/>
             </div>
         );
     }

@@ -180,3 +180,12 @@ body{
   width:100%;
   background-color: black;
 }
+
+.rowa :hover{
+  background-color: rgb(46, 45, 45)  ;
+  color: white;
+}
+
+.ronak{
+  size: 10px;
+}
